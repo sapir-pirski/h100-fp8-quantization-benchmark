@@ -1,0 +1,40 @@
+{
+  "bf16": {
+    "weights_gib": 14.29,
+    "profiles": {
+      "synchronous": {
+        "ttft_ms_median": 21.510601043701172,
+        "itl_ms_median": 6.027096393061619,
+        "output_toks_per_s_mean": 164.26433491074954,
+        "req_latency_s_median": 1.5589745044708252,
+        "rps_mean": 0.6333333333333333
+      },
+      "throughput": {
+        "ttft_ms_median": 375.4091262817383,
+        "itl_ms_median": 8.655400369681564,
+        "output_toks_per_s_mean": 5836.359152604508,
+        "req_latency_s_median": 2.5935940742492676,
+        "rps_mean": 23.46666666666666
+      }
+    }
+  },
+  "fp8": {
+    "weights_gib": 8.2,
+    "profiles": {
+      "synchronous": {
+        "ttft_ms_median": 24.382591247558594,
+        "itl_ms_median": 4.112027673160329,
+        "output_toks_per_s_mean": 238.63158923070174,
+        "req_latency_s_median": 1.0732083320617676,
+        "rps_mean": 0.9
+      },
+      "throughput": {
+        "ttft_ms_median": 298.5091209411621,
+        "itl_ms_median": 6.278335346895106,
+        "output_toks_per_s_mean": 8068.389464040002,
+        "req_latency_s_median": 1.919518232345581,
+        "rps_mean": 31.999999999999996
+      }
+    }
+  }
+}
