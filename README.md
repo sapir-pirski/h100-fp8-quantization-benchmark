@@ -115,12 +115,19 @@ The cleanup trap stops the created VM on success, failure, or interruption. **St
 ├── run-full-project.sh         # End-to-end Nebius H100 automation
 ├── requirements.txt            # Reproducible Python environment
 ├── TASK.md                     # Original assignment specification
+├── docs/                       # Methodology, reproduction, troubleshooting
 ├── results/
 │   ├── q1/                     # Accuracy table and SNR plot
 │   └── q2/                     # GuideLLM reports, logs, plot, comparison JSON
 ├── .env.example                # Safe environment template
 └── LICENSE                     # MIT
 ```
+
+## Documentation
+
+- [Benchmark methodology](docs/methodology.md)
+- [Reproducing the benchmark](docs/reproduction.md)
+- [Troubleshooting guide](docs/troubleshooting.md)
 
 ## Result artifacts
 
